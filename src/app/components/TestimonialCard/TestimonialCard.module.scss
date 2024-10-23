@@ -2,16 +2,23 @@
 {   
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    align-items: center;
+    gap: 20px;
 
     .testimonialQuote
     {
         font-size: 24px;
         font-weight: 600;
         line-height: normal;
+        width: 60%;
+        text-align: center;
     }
     .testimonialCardAuthorDetails
-    {
+    {   
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-top: 5px;
         .testimonialCardAuthor
         {
             font-size: 20px;
