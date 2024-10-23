@@ -5,6 +5,7 @@ import BusinessGrowthSection from '../components/sections/BusinessGrowthSection'
 import CarFinancingSection from '../components/sections/CarFinancingSection';
 import DealershipManagementSection from '../components/sections/DealershipManagementSection';
 import WhyOneLotSection from '../components/sections/WhyOneLotSection';
+import TestimonialsSection from '../components/sections/TestimonialsSection/TestimonialsSection';
 
 function index() {
     return (
@@ -15,6 +16,7 @@ function index() {
             <CarFinancingSection />
             <DealershipManagementSection />
             <WhyOneLotSection />
+            <TestimonialsSection />
         </div>
     )
 }
