@@ -1,0 +1,25 @@
+.stayConnectedSection
+{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    .section_heading
+    {
+        font-size: 36px;
+        font-weight: 700;
+    }
+    .stay_connected_description
+    {
+        font-size: 16px;
+        color: #6b7280;
+        width: 35%;
+        text-align: center;
+    }
+    .social_media_cards
+    {
+        display: flex;
+        gap: 10px;
+    }
+}

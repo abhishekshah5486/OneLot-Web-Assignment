@@ -18,8 +18,8 @@ const SocialAccountCard: React.FC<SocialAccountCardProps> = ({platform, link, ic
                     <Image 
                     src={icon}
                     alt={`${platform} icon`}
-                    width={50}
-                    height={50}
+                    width={24}
+                    height={24}
                     />
                 </Link>
             </div>
