@@ -22,28 +22,48 @@ function WhyOneLotSection() {
                     />
                 }
                 />
-            </div>
-            <div className={styles.cardContainer}>
                 <Card 
                 title='High Amount'
                 description='Get the highest loan amounts compared to other banks and lenders'
                 icon={
                     <Image 
-                    src="https://www.onelot.ph/trust.svg"
+                    src="https://www.onelot.ph/high_amount.svg"
                     height={64}
                     width={64}
                     alt='trust-icon'
                     />
                 }
                 />
-            </div>
-            <div className={styles.cardContainer}>
                 <Card 
                 title='Fast'
                 description='Get the money within a few hours on the same day'
                 icon={
                     <Image 
-                    src="https://www.onelot.ph/trust.svg"
+                    src="https://www.onelot.ph/fast.svg"
+                    height={64}
+                    width={64}
+                    alt='trust-icon'
+                    />
+                }
+                />
+                <Card 
+                title='Flexible'
+                description='Loans are tailored to your needs'
+                icon={
+                    <Image 
+                    src="https://www.onelot.ph/flexible.svg"
+                    height={64}
+                    width={64}
+                    alt='trust-icon'
+                    />
+                }
+                />
+                <Card 
+                title='Easy'
+                description='Run through an easy process and get your first loans within days'
+                icon={
+                    <Image 
+                    src="https://www.onelot.ph/easy.svg"
                     height={64}
                     width={64}
                     alt='trust-icon'
