@@ -3,4 +3,17 @@
     height: 500px;
     width: 100vw;
     background-color: #f9fafb;
+    border-top: 1px solid #e5e7eb;
+    border-bottom: 1px solid #e5e7eb;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+
+    .section_heading
+    {
+        font-size: 24px;
+        font-weight: 800;
+    }
 }

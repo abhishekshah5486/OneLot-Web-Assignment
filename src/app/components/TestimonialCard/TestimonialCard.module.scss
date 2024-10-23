@@ -1,0 +1,36 @@
+.testimonialsCardContainer
+{   
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .testimonialQuote
+    {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .testimonialCardAuthorDetails
+    {
+        .testimonialCardAuthor
+        {
+            font-size: 20px;
+            font-weight: 600;
+        }
+        .testimonialPositionOrganization
+        {
+            font-size: 16px;
+            color: #6d7482;
+        }
+    }
+    .carouselNavigationIcons
+    {
+        display: flex;
+        gap: 20px;
+        svg
+        {
+            height: 20px;
+            width: 20px;
+        }
+    }
+}
