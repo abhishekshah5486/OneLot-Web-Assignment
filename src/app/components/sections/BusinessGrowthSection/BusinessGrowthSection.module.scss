@@ -1,0 +1,98 @@
+.businessGrowthSection
+{
+    padding: 100px;
+    display: flex;
+    gap: 100px;
+
+    .businessGrowthLeftSection
+    {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        h2 {
+            font-size: 36px;
+            font-weight: 700;
+        }
+        p
+        {
+            font-size: 18px;
+            color: rgba(107, 114, 128, 1);
+        }
+        .learn_moreBtn
+        {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            color: #5900a3;
+            font-size: 16px;
+            font-weight: 600;
+        }
+    }
+
+    .serviceSections
+    {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        .loan_section
+        {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            .dealerLoansContent
+            {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                h3
+                {
+                    font-size: 20px;
+                    font-weight: 700;
+                }
+                .serviceDescription
+                {
+                    color: #4ec9d6;
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+                .serviceDetails
+                {
+                    color: #6b7280;
+                    font-size: 18px;
+                }
+            }
+        }
+        .management_system_section
+        {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+
+            .dmsContent
+            {   
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                h3
+                {
+                    font-size: 20px;
+                    font-weight: 700;
+                }
+                .serviceDescription
+                {
+                    color: #7e3af2;
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+                .serviceDetails
+                {
+                    color: #6b7280;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
