@@ -12,8 +12,26 @@ interface TestimonialCardProps
 }
 const TestimonialCard: React.FC<TestimonialCardProps> = ({profile, quote, author, position, organization}) => {
     return (
-        <div>
-        
+        <div className={styles.testimonialsCardContainer}>
+            <div className={styles.cardProfile}>
+                <Image 
+                src={profile}
+                height={100}
+                width={100}
+                className={styles.cardProfile}
+                alt='profile'
+                />
+            </div>
+            <h3 className={styles.testimonialQuote}>
+                {quote}
+            </h3>
+            <div className={styles.testimonialCardAuthorDetails}>
+                <h3 className={styles.testimonialCardAuthor}>{author}</h3>
+
+                <p className={styles.testimonialPositionOrganization}>
+                {position ? `${position}, ${organization}` : organization}
+                </p>
+            </div>
         </div>
     )
 }
