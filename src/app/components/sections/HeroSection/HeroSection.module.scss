@@ -1,0 +1,52 @@
+.heroSection
+{
+    margin-top: 5rem;
+    .heroSectionContent
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        height: 600px;
+        .heroSectionTitle
+        {
+            font-size: 48px;
+            font-weight: 700;
+            line-height: normal;
+            padding-left: 150px;
+            padding-right: 150px;
+            text-align: center;
+        }
+        .heroSectionDescription{
+            font-size: 20px;
+            padding-left: 350px;
+            padding-right: 350px;
+            text-align: center;
+            color: rgba(107, 114, 128, 1);
+        }
+        .heroSection_cta
+        {
+            outline: none;
+            border: none;
+            background-color: #57009c;
+            color: white;
+            padding: 8px;
+            padding-left: 15px;
+            padding-right: 15px;
+            border-radius: 8px;
+        }
+    }
+    .regulatedBySection
+    {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        color: rgba(107, 114, 128, 1);
+        border-bottom: 2px solid #e5e7eb;
+        background-color: #f9fafb;
+        padding: 60px;
+        padding-top: 500px;
+    }
+}
