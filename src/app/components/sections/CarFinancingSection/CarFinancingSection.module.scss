@@ -1,0 +1,76 @@
+.carFinancingSection {
+    height: 1000px;
+    width: 100vw;
+    background-color: #f9fafb;
+    display: flex;
+    padding-top: 80px;
+    gap: 80px;
+
+    .carFinancingContainer
+    {
+        width: 40%;
+        margin-right: 80px;
+        .textSection
+        {   
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            .heading
+            {
+                font-size: 36px;
+                font-weight: 700;
+            }
+            .subheading
+            {
+                font-size: 24px;
+                font-weight: 700;
+            }
+            .description
+            {
+                font-size: 20px;
+                color: #6b7280;
+            }
+            .benefitsList
+            {   
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                .benefitsListItem
+                {
+                    display: flex;
+                    gap: 8px;
+
+                    p {
+                        font-size: 20px;
+                        font-weight: 500;
+                    }
+                }
+            }
+            .linebreak {
+                background-color: #e5e7eb;
+                height: 1px;
+                width: 100%;
+                margin: 16px 0;
+            }
+            .callToAction
+            {
+                font-size: 20px;
+                color: #6b7280;
+            }
+            .viewLoansButton {
+                outline: none;
+                border: none;
+                background-color: #57009c;
+                color: white;
+                padding: 8px;
+                padding-left: 15px;
+                padding-right: 15px;
+                border-radius: 8px;
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                margin-top: 10px;
+            }
+        }
+    }
+}
