@@ -13,6 +13,7 @@ function CarFinancingSection() {
             alt='car-financing-banner'
             height={500}
             width={900}
+            className={styles.carFinancingBanner}
             />
             </div>
 
