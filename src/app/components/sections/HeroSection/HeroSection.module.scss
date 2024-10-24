@@ -8,6 +8,7 @@
         gap: 30px;
         align-items: center;
         height: 600px;
+        // border: 1px solid red;
         .heroSectionTitle
         {
             font-size: 48px;
@@ -48,5 +49,47 @@
         background-color: #f9fafb;
         padding: 60px;
         padding-top: 500px;
+    }
+}
+
+@media (max-width: 630px) {
+    .heroSection
+    {
+        margin-top: 4rem;
+        .heroSectionContent {
+
+            gap: 20px;
+            position: relative;
+            height: 320px;
+
+            .heroSectionTitle{
+                font-size: 30px;
+                font-weight: 750;
+                padding: 0px 16px;
+            }
+            .heroSectionDescription
+            {
+                font-size: 16px;
+                padding: 0px 16px;
+            }
+            .heroSection_banner
+            {
+                position: absolute;
+                width: 95vw;
+                top: 350px;
+            }
+        }
+        .regulatedBySection
+        {
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            color: rgba(107, 114, 128, 1);
+            border-bottom: 2px solid #e5e7eb;
+            padding: 15px;
+            padding-top: 300px;
+        }
     }
 }
