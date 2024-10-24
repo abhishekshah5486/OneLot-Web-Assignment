@@ -76,3 +76,44 @@
         }
     }
 }
+
+@media (max-width: 630px) {
+    .dealershipManagementSection
+    {
+        flex-direction: column;
+        padding: 20px 16px 0px 16px;
+        margin-top: 50px;
+        gap: 20px;
+
+        .dealershipManagementContainer
+        {
+            width: 100%;
+
+            .textSection
+            {
+                margin-left: 0px;
+                .heading
+                {
+                    font-size: 24px;
+                }
+                .description
+                {
+                    font-size: 16px;
+                }
+                .benefitsList
+                {
+                    .benefitsListItem
+                    {
+                        p {
+                            font-size: 16px;
+                        }
+                    }
+                }
+                .callToAction
+                {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
