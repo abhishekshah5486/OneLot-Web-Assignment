@@ -8,49 +8,57 @@
         align-items: center;
         justify-content: space-between;
     }
-
-    padding: 8px;
-    // position: fixed;
-    border: 1px solid red;
-    background-color: white;
-    top: 0px;
-    &.scrolled
-    {
-        border-bottom: 1px solid black;
-    }
-
     .logoContainer
     {
         width: 100%;
+        padding: 10px 8px;
+        position: fixed;
+        top: 0px;
+        background-color: white;
+        z-index: 2000;
         display: flex;
         align-items: center;
         justify-content: space-between;
-    }
-    .OneLotLogo
-    {
-        height: 2.2rem;
-        width: 6.25rem;
-    }
-    .ViewMoreButton {
-        height: 40px;
-        width: 40px;
-        background-color: #f3f4f6;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 8px;
-    }
 
+        &.scrolled
+        {
+            border-bottom: 1px solid #dfe0e4;
+        }
+
+        .OneLotLogo
+        {
+            height: 2.2rem;
+            width: 6.25rem;
+        }
+        .ViewMoreButton {
+            height: 40px;
+            width: 40px;
+            background-color: #f3f4f6;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+        }
+    }
+    
     .navbar_section
     {
         width: 100%;
-        margin-top: 10px;
+        padding-top: 4rem;
+        padding-bottom: 1rem;
+        display: none;
+        position: fixed; 
+        z-index: 1000;   
+        background-color: white;
+          
 
+        &.navbarScrolled {
+            border-bottom: 1px solid #dfe0e4;
+        }
         .navLinks
         {
             ul {
                 li {
-                    // border: 1px solid red;
                     padding: 8px;
                     padding-left: 16px;
                     padding-right: 12px;
@@ -68,13 +76,14 @@
         .linebreak
         {
             height: 1px;
-            background-color: #6b7280;
+            background-color: #e5e7eb;
         }
         .authButtons
         {
             margin-top: 15px;
             display: flex;
             flex-direction: column;
+            align-items: center;
             gap: 20px;
             .inquireNowBtn
             {
@@ -86,8 +95,16 @@
                 padding-left: 15px;
                 padding-right: 15px;
                 border-radius: 8px;
-                width: 100%;
+                width: 95%;
                 font-weight: 600;
+            }
+            .loginBtn
+            {
+                outline: none;
+                border: none;
+                width: auto;
+                font-weight: 550;
+                color: #374151;
             }
         }
     }

@@ -37,18 +37,3 @@ function HeroSection() {
 }
 
 export default HeroSection;
-
-
-// components/
-// └── sections/
-//     ├── Header.tsx               # Header with navigation and logo
-//     ├── HeroSection.tsx           # Hero banner
-//     ├── RegulatorySection.tsx     # Small section about SEC regulation
-//     ├── FeaturesSection.tsx       # Features cards (Dealer Inventory Loans, Dealership Management System)
-//     ├── CarFinancingSection.tsx   # Car Financing details
-//     ├── DealershipManagementSection.tsx # Dealership Management details
-//     ├── WhyOneLotSection.tsx      # Key reasons (Trust, Fast, Flexible, etc.)
-//     ├── TestimonialsSection.tsx   # Customer testimonials
-//     ├── StayConnectedSection.tsx  # Social media follow-up
-//     ├── FAQSection.tsx            # FAQ with expandable answers
-//     └── Footer.tsx                # Footer with company details and links
