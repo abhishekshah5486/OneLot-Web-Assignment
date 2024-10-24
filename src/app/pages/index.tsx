@@ -7,6 +7,7 @@ import DealershipManagementSection from '../components/sections/DealershipManage
 import WhyOneLotSection from '../components/sections/WhyOneLotSection';
 import TestimonialsSection from '../components/sections/TestimonialsSection/TestimonialsSection';
 import StayConnectecSection from '../components/sections/StayConnectedSection/StayConnectecSection';
+import FAQSection from '../components/sections/FAQSection';
 
 function index() {
     return (
@@ -19,6 +20,7 @@ function index() {
             <WhyOneLotSection />
             <TestimonialsSection />
             <StayConnectecSection />
+            <FAQSection />
         </div>
     )
 }
