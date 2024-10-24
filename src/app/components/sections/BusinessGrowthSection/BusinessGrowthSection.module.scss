@@ -96,3 +96,97 @@
         }
     }
 }
+
+@media (max-width: 630px)
+{
+    .businessGrowthSection
+    {
+        padding: 64px 16px;
+        flex-direction: column;
+        gap: 2rem;
+
+        .linebreak
+        {
+            height: 1px;
+            background-color: #e5e7eb;
+            width: 100%;
+        }
+
+        .businessGrowthLeftSection
+        {
+            width: 100%;
+            h2
+            {
+                font-size: 26px;
+                font-weight: 800;
+            }
+            p
+            {
+                font-size: 16px;
+            }
+        }
+        .serviceSections
+        {
+            width: 100%;
+            padding-right: 25%;
+
+            display: flex;
+            align-items: flex-start;
+            gap: 2rem;
+            
+            .loan_section
+            {
+                flex-direction: column;
+                .dealerLoansContent
+                {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    h3
+                    {
+                        font-size: 18px;
+                        font-weight: 700;
+                    }
+                    .serviceDescription
+                    {
+                        font-size: 17px;
+                    }
+                    .serviceDetails
+                    {
+                        font-size: 16px;
+                    }
+                }
+            }
+            .management_system_section
+            {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px;
+
+                .dmsContent
+                {   
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    h3
+                    {
+                        font-size: 18px;
+                        font-weight: 700;
+                    }
+                    .serviceDescription
+                    {
+                        color: #7e3af2;
+                        font-size: 17px;
+                        font-weight: 600;
+                    }
+                    .serviceDetails
+                    {
+                        color: #6b7280;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}

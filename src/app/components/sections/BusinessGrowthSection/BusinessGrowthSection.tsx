@@ -18,7 +18,7 @@ function BusinessGrowthSection() {
                 alt='learn-more-btn'
                 /></a>
             </div>
-
+            <div className={styles.linebreak}></div>
             <div className={styles.serviceSections}>
                 <div className={styles.loan_section}>
                     <Image 
