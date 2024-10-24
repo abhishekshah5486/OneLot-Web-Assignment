@@ -15,11 +15,9 @@
     }
     .faq_container
     {
-        // border: 1px solid red;
         width: 50%;
         .faq_item
         {
-            // border: 1px solid red;
             padding: 20px;
             display: flex;
             justify-content: space-between;
@@ -65,5 +63,29 @@
         display: flex;
         align-items: center;
         gap: 5px;
+    }
+}
+
+@media (max-width: 630px) {
+    .faqSection
+    {
+        padding: 80px 32px;
+        .section_heading
+        {
+            text-align: center;
+        }
+        .faq_container
+        {
+            width: 100%;
+
+            .faq_item
+            {
+                .faqQuestion
+                {
+                    font-size: 18px;
+                    font-weight: 500;
+                }
+            }
+        }
     }
 }
