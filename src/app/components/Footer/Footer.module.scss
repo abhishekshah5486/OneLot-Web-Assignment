@@ -130,5 +130,18 @@
                 }
             }
         }
+        .linebreak
+        {
+            width: auto;
+            margin-left: 24px;
+            margin-right: 24px;
+        }
+        .footer__copyright_socialLinks
+        {
+            padding: 24px;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 20px;
+        }
     }
 }
