@@ -8,6 +8,7 @@ import WhyOneLotSection from '../components/sections/WhyOneLotSection';
 import TestimonialsSection from '../components/sections/TestimonialsSection/TestimonialsSection';
 import StayConnectecSection from '../components/sections/StayConnectedSection/StayConnectecSection';
 import FAQSection from '../components/sections/FAQSection';
+import Footer from '../components/Footer';
 
 function index() {
     return (
@@ -21,6 +22,7 @@ function index() {
             <TestimonialsSection />
             <StayConnectecSection />
             <FAQSection />
+            <Footer />
         </div>
     )
 }
