@@ -1,5 +1,11 @@
 .headerSection
 {
+    display: block;
+    @media (max-width: 630px)
+    {
+        display: none;
+    }
+    background-color: white;
     height: 3.9rem;
     width: 100vw;
     display: flex;
@@ -8,7 +14,6 @@
     padding-right: 15px;
     position: fixed;
     top: 0px;
-    background-color: white;
     
     &.scrolled
     {

@@ -9,11 +9,13 @@ import TestimonialsSection from '../components/sections/TestimonialsSection/Test
 import StayConnectecSection from '../components/sections/StayConnectedSection/StayConnectecSection';
 import FAQSection from '../components/sections/FAQSection';
 import Footer from '../components/Footer';
+import AndroidHeader from '../components/AndroidHeader';
 
 function index() {
     return (
         <div>
             <Header />
+            <AndroidHeader />
             <HeroSection />
             <BusinessGrowthSection />
             <CarFinancingSection />
