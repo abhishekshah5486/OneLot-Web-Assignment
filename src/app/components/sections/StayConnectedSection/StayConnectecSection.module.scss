@@ -23,3 +23,24 @@
         gap: 10px;
     }
 }
+
+@media (max-width: 630px)
+{
+    .stayConnectedSection
+    {
+        padding: 56px 32px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        .stay_connected_description
+        {
+            width: 70%;
+            font-size: 18px;
+        }
+        .social_media_cards
+        {
+            margin-top: 20px;
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
+}

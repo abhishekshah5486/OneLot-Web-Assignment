@@ -9,7 +9,7 @@ function StayConnectecSection() {
         <div className={styles.stayConnectedSection}>
             <h3 className={styles.section_heading}>Stay Connected</h3>
             <p className={styles.stay_connected_description}>
-                Follow OneLot on Facebook and Instagram to stay up to date with our latest offers, updates, and new product features.
+                Follow OneLot on our Facebook and Instagram page to stay up to date with our latest offers, updates, and new product features.
             </p>
             <div className={styles.social_media_cards}>
                 <SocialAccountCard 
