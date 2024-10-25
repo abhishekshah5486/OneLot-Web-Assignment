@@ -15,6 +15,16 @@
         font-size: 24px;
         font-weight: 800;
     }
+    .carouselNavigationIcons
+    {
+        display: flex;
+        gap: 20px;
+        svg
+        {
+            height: 20px;
+            width: 20px;
+        }
+    }
 }
 
 @media (max-width: 630px)
